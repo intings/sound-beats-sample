@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<title>Sound Beats</title>
+<!--script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script-->
+<link rel="stylesheet" type="text/css" href="css\keys.css" />
+<link rel="stylesheet" type="text/css" href="css\colors.css" />
+<meta name="viewport" content="width=device-width">
+</head>
+<body>
+<h1>SOUND Beats</h1>
+<p id="fps"></p>
+ <div class="mobile-keyboard">
+	<div id="KeyQ" data-order="0" class="key purp02">
+		<!-- <div class="label">kick1</div> -->
+	</div>
+	<div id="KeyW" data-order="1" class="key purp05">
+		<!-- <div class="label">kick2</div> -->
+	</div>
+	<div id="KeyE" data-order="2" class="key purp08">
+		<!-- <div class="label">kick3</div> -->
+	</div>
+	<div id="KeyR" data-order="3" class="key purp11">
+		<!-- <div class="label">snare</div> -->
+	</div>
+	<div id="KeyA" data-order="4" class="key jade02">
+		<!-- <div class="label">claves</div> -->
+	</div>
+	<div id="KeyS" data-order="5" class="key jade05">
+		<!-- <div class="label">conga</div> -->
+	</div>
+	<div id="KeyD" data-order="6" class="key jade08">
+		<!-- <div class="label">crash</div> -->
+	</div>
+	<div id="KeyF" data-order="7" class="key jade11">
+		<!-- <div class="label">tom</div> -->
+	</div>
+	<div id="KeyZ" data-order="8" class="key green02">
+		<!-- <div class="label">ha</div> -->
+	</div>
+	<div id="KeyX" data-order="9" class="key green05">
+		<!-- <div class="label">hey</div> -->
+	</div>
+	<div id="KeyC" data-order="10"class="key green08">
+		<!-- <div class="label">holdup</div> -->
+	</div>
+	<div id="KeyV" data-order="11" class="key green11">
+		<!-- <div class="label">yeah</div> -->
+	</div>
+</div>
+<button id="recordBtn">record</button>
+<button id="stopBtn" disabled>stop</button>
+<h2>Recordings</h2>
+<ul id="recordingslist"></ul>
+ <p></p>
+ <output></output>
+</body>
+</html>
+<script type="text/javascript" src="js\events.js"></script>
+<script type="text/javascript" src="js\audio.js"></script>
+<script type="text/javascript" src="js\recorder.js"></script>
+<script type="text/javascript" src="js\visualiser.js"></script>

@@ -1,0 +1,45 @@
+.mobile-keyboard {
+	display: flex;
+	flex-wrap: wrap;
+	height: 500px;
+	justify-content: space-around;
+}
+
+.key {
+	margin-bottom: 5px;
+	width: 24%;	
+	-webkit-transition: -webkit-transform 0.1s; /* Safari */
+    transition: transform 0.1s;
+}
+
+label {
+    letter-spacing: 1px;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 12px;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    color: #6255ac
+}
+
+.key .label {
+    color: rgba(40,42,48,0.4);
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-transform: uppercase;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    white-space: nowrap;
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+}
+
+.hit {
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+}
